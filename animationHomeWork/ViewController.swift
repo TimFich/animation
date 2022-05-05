@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     //MARK: - UI View Life cyrcle
     override func viewDidLoad() {
         super.viewDidLoad()
+        firstView.layer.cornerRadius = firstView.frame.height / 2
         config()
     }
 
@@ -27,7 +28,7 @@ class ViewController: UIViewController {
         tapGesture = UITapGestureRecognizer()
         tapGesture.addTarget(self, action: #selector(didTap))
         self.firstView.addGestureRecognizer(tapGesture)
-        (firstView as? Cell)!.configure(image: UIImage(named: "10") ?? UIImage(), title: "Hellow World")
+        (firstView as? Cell)!.configure(image: UIImage(named: "10") ?? UIImage(), title: "Hellow")
     }
     
     @objc

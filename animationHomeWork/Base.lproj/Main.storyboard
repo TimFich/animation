@@ -67,12 +67,12 @@
                         <outlet property="firstView" destination="Uxe-hD-HML" id="NYm-ve-2vx"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="9Po-wI-ezV">
                     <connections>
                         <action selector="didTap" destination="BYZ-38-t0r" id="rd8-mr-dZY"/>
                     </connections>
                 </tapGestureRecognizer>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="944.92753623188412" y="97.767857142857139"/>
         </scene>
